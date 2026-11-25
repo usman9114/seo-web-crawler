@@ -46,3 +46,7 @@ This is a Python script for analyzing the SEO (Search Engine Optimization) of a 
  - Please note that the effectiveness of SEO strategies may vary, and it's recommended to consult SEO experts and follow best practices for more comprehensive optimization.
 
 Note: Make sure to comply with the website's terms of service and privacy policy when analyzing web pages.
+
+## Responsible crawling
+
+Use rate limits, respect robots guidance and site permissions, and review crawler output before acting on SEO recommendations.
