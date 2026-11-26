@@ -1,4 +1,4 @@
-<p align="center"><img src="docs/assets/hero.png" alt="Banner: a browser window wireframe under a magnifying lens, with green check markers beside most page elements and one amber warning" width="100%"></p>
+<p align="center"><img src="docs/assets/hero.jpg" alt="Banner: a cartoon spider with a monocle on a web of browser-window tiles, holding a magnifying glass to a tile with a green check while another tile carries a warning badge. Title: SEO page analysis tool." width="100%"></p>
 
 # SEO Analysis Tool
 
@@ -68,4 +68,4 @@ Use rate limits, respect robots guidance and site permissions, and review crawle
 
 ## Visual assets
 
-The banner illustration was generated from a written brief (`docs/assets/briefs/`, with the references it drew on); its sidecar `docs/assets/hero-art.png.json` records the prompt. Text is set in real type by `docs/assets/tools/compose_banner.py`. `docs/assets/social-preview.png` (1280x640) is for the repository's social preview.
+The banner illustration was generated from a written brief (`docs/assets/briefs/`, with the references it drew on); its sidecar `docs/assets/hero-art.png.json` records the prompt. Text is set in real type by `docs/assets/tools/compose_banner.py`. `docs/assets/social-preview.jpg` (1280x640) is for the repository's social preview.

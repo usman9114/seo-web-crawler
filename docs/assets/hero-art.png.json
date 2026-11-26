@@ -1,8 +1,8 @@
 {
-  "prompt": "A stylised browser window wireframe floating at a slight isometric angle: blank title bar, a heading block, an image placeholder, paragraph lines, a few link underlines. A glowing teal magnifying lens hovers over it; small green check markers beside several elements and one amber warning marker beside one element. No readable text anywhere. Wide technical illustration, aspect about 2:1, deep navy ink background (#0B1020), high contrast, soft glow, minimal modern clean style, not photoreal. The subject sits in the right two-thirds; the left third is calm, dark, empty space. No robots, no brains, no people, no circuit boards. Absolutely no text, letters, numbers, logos, watermarks, borders or UI.",
+  "prompt": "Bold flat vector sticker-style illustration with thick outlines and playful energy. A friendly cartoon spider with a round body, eight legs and big curious eyes, wearing a tiny monocle, crawls along a web whose junction nodes are tiny web-page browser tiles. It holds a magnifying glass up to one tile marked with a green check; another tile has an orange round warning badge. Palette: electric lime, grape purple, hot pink, white outlines, on a deep purple background with subtle halftone dots. Wide 2:1 composition. The left third of the canvas stays quiet and low-detail so a title can be placed there. No text, letters, numbers, logos, watermarks, borders, people or robots.",
   "driver_model": "gpt-6-luna",
   "image_model": "gpt-image via codex $imagegen",
-  "created": "2026-11-26T21:07:23",
+  "created": "2026-11-26T21:17:16",
   "refs": [],
   "tool": "scout.chatgpt (codex exec, ChatGPT plan)",
   "note": "AI-generated. Not a product photo."
