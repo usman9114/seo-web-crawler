@@ -1,6 +1,21 @@
+<p align="center"><img src="docs/assets/hero.png" alt="Banner: a browser window wireframe under a magnifying lens, with green check markers beside most page elements and one amber warning" width="100%"></p>
+
 # SEO Analysis Tool
 
 This is a Python script for analyzing the SEO (Search Engine Optimization) of a web page. It checks various on-page SEO factors and provides recommendations and information to help improve the website's SEO.
+
+## How it works
+
+```mermaid
+flowchart LR
+    I["URL + SEO keyword"] --> V["Validate URL"]
+    V --> F["Fetch page"]
+    F --> P["Parse HTML<br/>BeautifulSoup"]
+    P --> A["On-page checks<br/>title, stop words, image alt,<br/>meta description + keywords,<br/>H1/H2, anchor tags"]
+    F --> X["External lookups<br/>social share counts,<br/>Google PageSpeed Insights"]
+    A --> O["Report with<br/>recommendations"]
+    X --> O
+```
 
 ## How to Use
 
@@ -50,3 +65,7 @@ Note: Make sure to comply with the website's terms of service and privacy policy
 ## Responsible crawling
 
 Use rate limits, respect robots guidance and site permissions, and review crawler output before acting on SEO recommendations.
+
+## Visual assets
+
+The banner illustration was generated from a written brief (`docs/assets/briefs/`, with the references it drew on); its sidecar `docs/assets/hero-art.png.json` records the prompt. Text is set in real type by `docs/assets/tools/compose_banner.py`. `docs/assets/social-preview.png` (1280x640) is for the repository's social preview.
